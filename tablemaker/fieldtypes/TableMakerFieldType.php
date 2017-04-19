@@ -84,7 +84,7 @@ class TableMakerFieldType extends BaseFieldType
 					'heading' => $val['heading'],
 					'align' => $val['align'],
 					'width' => $val['width'],
-					'type' => 'singleline'
+					'type' => 'multiline'
 				);
 
 			}
@@ -98,7 +98,7 @@ class TableMakerFieldType extends BaseFieldType
 					'heading' => '',
 					'align' => '',
 					'width' => '',
-					'type' => 'singleline'
+					'type' => 'multiline'
 				)
 			);
 
